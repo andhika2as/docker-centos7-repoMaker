@@ -1,0 +1,14 @@
+version: '3'
+services:
+  centos:
+    image: centos:7
+    tty: true
+    ports:
+    - "80:80"
+    - "443:443"
+    volumes:
+    - ./home:/root
+    - ./logFile:/var/log
+volumes:
+  home: {}
+  logFile: {}
