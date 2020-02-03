@@ -3,7 +3,7 @@
 Case scenario:
 > If your production environment has no Internet because of regulations, then this better alternative to get depedencies.
 
-> Alternatively, you can use VM
+> This method using docker as repositories downloader, so we can deploy them in other environment without using any internet.
 
 # docker volume details:
 * home/  -- shared with container /root 
@@ -14,7 +14,7 @@ Case scenario:
 ```sh
     mkdir home
     mkdir logFile
-docker-compose run centos bash
+    docker-compose run &
 ```
 # for add more tty to running centos (container):
 ```sh
