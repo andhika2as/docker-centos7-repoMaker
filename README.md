@@ -11,11 +11,8 @@ Case scenario:
 
 # For start:
 
-```sh
-    mkdir home
-    mkdir logFile
-    docker-compose run &
-```
+Run start-docker.sh
+
 # for add more tty to running centos (container):
 ```sh
     docker ps

@@ -7,10 +7,10 @@ echo "===== Installing required extras repo ====="
   yum install  https://download.postgresql.org/pub/repos/yum/9.6/redhat/rhel-7-x86_64/pgdg-redhat96-9.6-3.noarch.rpm -y
 #  yum install https://extras.getpagespeed.com/release-el7-latest.rpm -y
 
-echo "===== yumdownloader in folder: ====="
+echo "===== yumdownloader in folder: "
 mkdir repo
 cd repo
 pwd
-echo ""
+echo "====="
 yumdownloader --resolve epel-release git nginx \
   php php-common php-cli php-fpm
